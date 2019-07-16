@@ -6,11 +6,11 @@ class StocksController < ApplicationController
 			if @stock
 				render 'users/my_portfolio'
 			else
-				flash[:danger] = "Please input an valid symbol"
+				flash[:danger] = "Please input a valid symbol"
 				redirect_to my_portfolio_path
 			end
 		else
-			flash[:danger] = "You have entered on emtpry search string"
+			flash[:danger] = "You have entered an empty search string"
 			redirect_to my_portfolio_path
 		end
 	end
