@@ -10,6 +10,9 @@ gem 'devise'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+
+gem 'stock_quote', '~>3.0.0'
+gem 'iex-ruby-client'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
